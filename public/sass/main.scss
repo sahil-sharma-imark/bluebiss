@@ -1,0 +1,68 @@
+/*!
+CSS Document
+Project Name: BlueBis
+Project Description: New Project
+Written By:  Premraj Kushwah
+Created On: 04-07-2022
+Last Modified:
+*/
+// Vendors and external stylesheets
+@import "vendors/bootstrap";
+@import "vendors/mCustomScrollbar";
+@import "vendors/icon";
+@import "vendors/slick";
+@import "vendors/aos";
+
+// Sass utilities
+@import "helpers/variables";
+@import "helpers/functions";
+@import "helpers/mixins";
+
+// Base stuff
+@import "base/reset";
+@import "base/typography";
+
+// Layout related stylesheets
+@import "layout/header";
+@import "layout/footer";
+@import "layout/sidebar";
+@import "layout/forms";
+@import "layout/style";
+
+// Components and modules
+@import "components/buttons";
+
+// Page-specific stylesheets
+@import "pages/home";
+@import "pages/pro-center";
+@import "pages/about";
+@import "pages/how-its-work";
+@import "pages/how-to-create-project";
+@import "pages/how-its-work1";
+@import "pages/blog";
+@import "pages/contact";
+@import "pages/page-404";
+@import "pages/maintenance";
+@import "pages/become-a-provider";
+@import "pages/business-detail";
+@import "pages/login_account";
+@import "pages/provider-profile";
+@import "pages/provider-listing";
+@import "pages/profile";
+@import "pages/all-services";
+@import "pages/bluebis-membership";
+@import "pages/provider-account";
+@import "pages/payment";
+@import "pages/provider-account-published";
+@import "pages/tasks-detail-provider";
+@import "pages/search";
+@import "pages/my-tasks-blank";
+@import "pages/dispute";
+@import "pages/interested-provider-chat";
+@import "pages/review-your-booking.scss";
+
+
+// Themes
+@import "themes/theme";
+@import "themes/admin";
+  

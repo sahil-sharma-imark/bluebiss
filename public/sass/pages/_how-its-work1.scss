@@ -1,0 +1,169 @@
+.work-content-section-main {
+    @include padding-h;
+    
+    .content-section-mb {
+        margin-bottom: 10px;
+    }
+    
+    .content-section-banner-img {
+        margin-bottom: 30px;
+
+        figure {
+            height: 400px;
+
+            img {
+                @include img-object;
+            }
+        }
+    }
+
+    h3 {
+        font-family: $ambit;
+        color: #20272B;
+        line-height: 40px;
+    }
+
+    .title {
+        max-width: 460px;
+    }
+
+    p {
+        color: #20272BC4;
+    }
+}
+
+.present-section{
+    @include padding-h;
+    background: #293F4F;
+
+    .present-content {
+        figure {
+            width: 48px;
+            height: 48px;
+            border-radius: 8px;
+            margin-bottom: 15px;
+
+            img {
+                @include img-object;
+            }
+
+            &.fig-bg-info {
+                background: $info;
+            }
+            &.fig-bg-yellow {
+                background: $color-Y;
+            }
+            &.fig-bg-red {
+                background: $color-R;
+            }
+            &.fig-bg-green {
+                background: $color-G;
+            }
+        }
+
+        h5 {
+            font-size: 22px;
+            color: #fff;
+            margin-bottom: 13px;
+            font-weight: 500;
+        }
+
+        .check-list {
+            color: $color-W;
+        }
+    }
+}
+
+.culture-main {
+    @include padding-h;
+
+    .culture-content {
+        max-width: 950px;
+        margin: auto;
+
+        .title {
+            text-align: center;
+
+            h4 {
+                margin-bottom: 35px;
+            }
+        }
+
+        h4 {
+            font-family: $ambit;
+            color: #20272B;
+         }
+
+        p {
+            color: #20272BC4;
+            margin-bottom: 28px;
+        }
+
+        .content-section-row {
+            margin-bottom: 40px;
+        }
+
+        .experts-services {
+            margin: 60px 0;
+
+            h4 {
+                max-width: 334px;
+            }
+
+            figure {
+                height: 354px;
+                border-radius: 4px;
+                overflow: hidden;
+
+                img {
+                    @include img-object;
+                }
+            }
+
+        }
+    }
+}
+
+.benefits {
+    @include padding-h;
+    background: $gray;
+
+    .title {
+        text-align: center;
+
+        h3 {
+            margin-bottom: 5px;
+        }
+    }  
+
+    .benefits-content {
+        margin-top: 40px;
+
+        h4 {
+            @include small-heading;
+            margin-bottom: 15px;
+            color: #20272B;
+        }
+    
+        p {
+            color: #20272BC4;
+    
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+
+        figure {
+            width: 34px;
+            height: 48px;
+            margin-bottom: 15px;
+
+            img {
+                @include img-object;
+            }
+        }
+    }
+    
+    
+   
+}

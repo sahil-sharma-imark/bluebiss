@@ -1,0 +1,24 @@
+
+.contact-main {
+    @include padding-h;
+
+    .title  {
+        margin-bottom: 50px;
+        text-align: center;
+
+        .contact-text {
+            color: $info;
+            margin-bottom: 15px;
+            font-family: $ambit;
+            line-height: 16px;
+        }
+
+        h1 {
+            font-family: $ambit;
+            margin-bottom: 15px;
+        }
+        p {
+            font-family: $ambit;
+        }
+    }
+}

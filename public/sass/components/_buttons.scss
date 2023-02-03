@@ -1,0 +1,41 @@
+.btn {
+    background: $info;
+    border: 1px solid $info;
+    color: $color-W;
+    font-weight: $regular;
+    border-radius: 4px;
+    font-size: 16px;
+    padding: 0 24px;
+    line-height: 2.56;
+    @include transition;
+    box-shadow: none;
+    outline: none;
+    font-family: $HelveticaNowDis;
+
+    @include breakpoint(desktop) {
+        font-size: 18px;
+        line-height: 2.28;
+        padding: 0 22px;
+    }
+
+    &.active {
+        background: $color-secondery;
+        border-color: $color-B;
+        color: $color-W;
+
+        &:hover {
+            background: $info;
+            border: $info;
+            color: $color-W;
+        }
+    }
+    
+    &:focus,
+    &:hover {
+        background: $color-W;
+        border-color: $info;
+        color: $info;
+        box-shadow: none;
+        outline: none;
+    }
+}

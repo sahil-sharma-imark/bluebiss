@@ -1,0 +1,26 @@
+.all-services {
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+    h4 {
+        color: #20272B;
+        margin-bottom: 17px;
+    }
+
+    .all-services-box {
+        border-radius: 4px;
+        background: #fff;
+        padding: 30px 30px 15px 30px;
+        margin-bottom: 30px;
+
+        .services-list {
+            margin-bottom: 0;
+
+            li {
+                color: #20272BC4;
+                line-height: 16px;
+                margin-bottom: 16px;
+            }
+        }
+    }
+}

@@ -1,0 +1,278 @@
+header {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  transition: 0.4s;
+
+  &.border-b {
+    border-bottom: 1px solid #E8E9E9;
+  }
+
+  .header-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+
+    .back-arrow-btn {
+      position: absolute;
+      left: 0;
+      font-size: 23px;
+      color: #20272B;
+
+      &:hover {
+        color: $info;
+      }
+    }
+
+    .logo-center {
+      padding: 5px 0;
+
+      a {
+        width: 110px;
+
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+      }
+    }
+
+    .bell-icon {
+      padding-left: 5px;
+
+      svg {
+        width: 25px;
+        height: 20px;
+
+        &:hover path {
+          stroke: $info;
+        }
+
+      }
+    }
+
+    .user-profile {
+      padding-left: 20px;
+
+      .dropdown {
+        // width: 245px;
+
+        .dropdown-item {
+          padding: 8px 20px;
+          border: 0;
+          line-height: 22px;
+          color: #20272B;
+
+          &:hover {
+            color: #ffffff !important;
+            background-color: $info;
+          }
+        }
+      }
+
+      .dropdown-menu {
+        top: 20px !important;
+        width: 244px;
+        border: none;
+        border-radius: 4px;
+        box-shadow: 0px 10px 30px #0000001A;
+      }
+
+      .dropdown-toggle::after {
+        margin-left: 12px;
+        content: "\f107";
+        font-family: "FontAwesome";
+        font-size: 12px;
+        border: none;
+      }
+
+      button {
+        display: flex;
+        align-items: center;
+        border: none;
+        background: transparent;
+
+        &:hover {
+          color: $info;
+        }
+
+        figure {
+          width: 42px;
+          height: 42px;
+          border-radius: 50%;
+          margin-right: 11px;
+        }
+      }
+    }
+
+    .header-left {
+      width: 50%;
+      display: flex;
+      align-items: center;
+
+      .back-arrow {
+        font-size: 23px;
+        color: #20272B;
+
+        &:hover {
+          color: $info;
+        }
+      }
+
+      .logo a {
+        width: 110px;
+
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+      }
+
+      .search-input {
+        padding-left: 23px;
+
+        form {
+          display: flex;
+          align-items: center;
+          position: relative;
+
+          input {
+            height: 42px;
+            border-radius: 4px;
+            padding-left: 40px;
+            width: 372px;
+
+            &::placeholder {
+              color: rgba(32, 39, 43, 0.5);
+              font-size: 16px;
+            }
+
+            &:focus {
+              box-shadow: none;
+            }
+          }
+
+          .search-btn {
+            border: none;
+            background: transparent;
+            position: absolute;
+            left: 16px;
+            top: 50%;
+            transform: translateY(-50%);
+            line-height: 0;
+
+            svg:not(:root) {
+              height: 18px;
+              width: 18px;
+              fill: #178E96;
+            }
+          }
+        }
+      }
+    }
+
+    .header-right {
+      width: 50%;
+      display: flex;
+      justify-content: end;
+      align-items: center;
+
+      .cleaning-select {
+        max-width: 342px;
+      }
+
+      .navbar {
+        li {
+          margin-right: 20px;
+
+          a {
+            color: $color-primary;
+            padding: 0;
+
+            &:hover {
+              color: $info;
+            }
+          }
+        }
+
+      }
+
+      .right-btn {
+        margin-left: 8px;
+
+        .btn {
+          font-weight: 500;
+        }
+      }
+    }
+  }
+}
+
+.home-page {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 99;
+}
+
+.fixed-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: #fff;
+  z-index: 7;
+  -webkit-animation-duration: 500ms;
+  animation-duration: 500ms;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  transition: 0.4s;
+}
+
+@-webkit-keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+.inner-page-header {
+  padding-top: 21px;
+  padding-bottom: 21px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: #fff;
+  z-index: 99;
+}
+
+

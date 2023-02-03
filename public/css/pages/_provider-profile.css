@@ -1,0 +1,7 @@
+.profile_provider {
+  padding: 0; }
+  .profile_provider .profile_head {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px; }

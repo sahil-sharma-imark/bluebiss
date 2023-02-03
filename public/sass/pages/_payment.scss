@@ -1,0 +1,22 @@
+.payment {
+    max-width: 560px;
+    margin: auto;
+    padding: 40px 0;
+
+    .title {
+        border-bottom: 3px solid #47BBD0;
+        padding-bottom: 20px;
+        margin-bottom: 30px;
+        display: flex;
+        align-items: center;
+
+        h4 {
+            margin-bottom: 0;
+        }
+    }
+
+    .create-btn {
+        margin-top: 20px;
+        text-align: right;
+    }
+}

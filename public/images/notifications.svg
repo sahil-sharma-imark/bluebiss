@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="177" height="141" viewBox="0 0 177 141">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_13338" data-name="Rectangle 13338" width="177" height="141" transform="translate(845 272)" fill="rgba(71,187,208,0.3)"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_13" data-name="Mask Group 13" transform="translate(-845 -272)" clip-path="url(#clip-path)">
+    <g id="Group_53176" data-name="Group 53176">
+      <path id="blob" d="M70.34.405C80.2,35.289,79.288,69.136,57.761,87.68c-21.4,18.674-63.414,22.175-90.257,2.983C-59.469,71.6-71.4,29.972-60.247-6.6S-14.989-74.68,12.373-72.475,60.485-34.479,70.34.405Z" transform="matrix(-0.259, 0.966, -0.966, -0.259, 951.434, 344.19)" fill="rgba(71,187,208,0.3)"/>
+      <g id="Group_53177" data-name="Group 53177" transform="translate(893.293 312.996)">
+        <path id="Icon_ionic-md-notifications" data-name="Icon ionic-md-notifications" d="M33.164,68.467a6.513,6.513,0,0,0,6.48-6.509H26.684A6.513,6.513,0,0,0,33.164,68.467ZM54.223,48.939v-17.9a21.1,21.1,0,0,0-16.2-20.5V8.257a4.86,4.86,0,1,0-9.72,0v2.278a21.1,21.1,0,0,0-16.2,20.5v17.9l-6.48,6.509V58.7H60.7V55.448Z" transform="translate(-5.625 -3.375)" fill="#fff"/>
+        <g id="Group_93" data-name="Group 93" transform="translate(61.915 2.686)">
+          <g id="Group_91" data-name="Group 91" transform="translate(0 0)">
+            <ellipse id="Ellipse_57" data-name="Ellipse 57" cx="5.674" cy="5.674" rx="5.674" ry="5.674" transform="translate(2.823 45.766)" fill="#fff"/>
+            <path id="Path_568" data-name="Path 568" d="M383.678,264.135c-1.218,8.424-2.251,17.3-4.722,25.526-.6,1.949-4.3,1.949-4.908,0a144.8,144.8,0,0,1-4.084-18.773c-.754-4.641-3.481-12.067-.87-16.569,2.251-3.991,8.644-4.49,12.334-2.4C386,254.528,384.246,259.946,383.678,264.135Z" transform="translate(-367.986 -250.707)" fill="#fff"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,74 @@
+// @media screen and (min-width:1500px){
+// 	.container{
+// 		max-width: 1176px;
+// 	}
+// }
+
+// @media screen and (min-width:1199px){
+// 	.container{
+// 		max-width: 1176px;
+// 	}
+// }
+
+.container{
+	max-width: 1176px;
+}
+
+.container-fluid{
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+/*** Parameters ***/
+
+// Colors
+$color-primary: #20272B;
+$color-secondery: #7bfca0;
+$color-W: #fff;
+$color-B: #20272B;
+$info: #47BBD0;
+$orangeLight: #FDE3C8;
+$color-or: #F9C339;
+$gray: #F7F8F9;
+$text-color: #404145;
+$color-Y: #F9A52B;
+$color-R: #FF5757;
+$color-G: #47C085;
+
+$fw: "font-weight";
+$ff: "font-family";
+$fs: "font-size";
+$c: "color";
+
+// Brand color
+$color-facebook: #3b5998;
+$color-feedly: #2bb24c;
+$color-github: #333;
+$color-google: #dc4e41;
+$color-instagram: #3f729b;
+$color-linkedin: #0077b5;
+$color-medium: #00ab6b;
+$color-messenger: #0084ff;
+$color-rss: #f26522;
+$color-spotify: #2ebd59;
+$color-twitter: #55acee;
+
+// Font Size
+$base-font-size: 16;
+
+// Font Size
+$boder-rd: 4px;
+
+// Font Family
+$HelveticaNowDis: 'HelveticaNowDisplay', sans-serif;
+$ambit: 'Ambit', sans-serif;
+$sfprodisplay: 'SF Pro Display', sans-serif;
+ 
+//Font-Weight
+$bold:700;
+$semi-bold:600;
+$medium:500;
+$regular:400;
+$light:300;
+
+

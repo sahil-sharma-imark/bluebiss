@@ -1,0 +1,52 @@
+.page-404 {
+    text-align: center;
+    padding: 67px 0;
+
+    figure {
+        max-width: 421px;
+        margin: auto;
+    }
+
+    h2 {
+        font-size: 80px;
+        line-height: 100px;
+        margin-bottom: 0;
+    }
+
+    p {
+        color: #20272BC4;
+    }
+    .Go-Back-btn {
+        margin-bottom: 20px;
+
+        .btn {
+            margin: 0 8px;
+            padding: 0 30px;
+
+            &.btn-go-back:hover {
+                color: #20272B;
+                border: 1px solid #E8E9E9;
+                background: transparent;
+            }
+            &.btn-go-home {
+                color: #20272B;
+                border: 1px solid #E8E9E9;
+                background: transparent;
+
+                &:hover {
+                    background: #47BBD0;
+                    border: 1px solid #47BBD0;
+                    color: $color-W;
+                }
+            }
+        }
+    }
+    .link {
+        color: #47BBD0;
+        text-decoration: underline;
+
+        &:hover {
+            color: #20272B;
+        }
+    }
+}

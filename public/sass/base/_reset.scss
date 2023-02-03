@@ -1,0 +1,602 @@
+/** RESET only css **/
+// @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+/* font-family: 'Montserrat', sans-serif; */
+
+
+@font-face {
+    font-family: 'HelveticaNowDisplay';
+    src: url('../fonts/HelveticaNowDisplay/HelveticaNowDisplay-Hairline.woff2') format('woff2'),
+        url('../fonts/HelveticaNowDisplay/HelveticaNowDisplay-Hairline.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'HelveticaNowDisplay';
+    src: url('../fonts/HelveticaNowDisplay/HelveticaNowDisplay-ExtraBold.woff2') format('woff2'),
+        url('../fonts/HelveticaNowDisplay/HelveticaNowDisplay-ExtraBold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'HelveticaNowDisplay';
+    src: url('../fonts/HelveticaNowDisplay/HelveticaNowDisplay-Medium.woff2') format('woff2'),
+        url('../fonts/HelveticaNowDisplay/HelveticaNowDisplay-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'HelveticaNowDisplay';
+    src: url('../fonts/HelveticaNowDisplay/HelveticaNowDisplay-Light.woff2') format('woff2'),
+        url('../fonts/HelveticaNowDisplay/HelveticaNowDisplay-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'HelveticaNowDisplay';
+    src: url('../fonts/HelveticaNowDisplay/HelveticaNowDisplay-Black.woff2') format('woff2'),
+        url('../fonts/HelveticaNowDisplay/HelveticaNowDisplay-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: 400;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'HelveticaNowDisplay';
+    src: url('../fonts/HelveticaNowDisplay/HelveticaNowDisplay-Regular.woff2') format('woff2'),
+        url('../fonts/HelveticaNowDisplay/HelveticaNowDisplay-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'HelveticaNowDisplay';
+    src: url('../fonts/HelveticaNowDisplay/HelveticaNowDisplay-Bold.woff2') format('woff2'),
+        url('../fonts/HelveticaNowDisplay/HelveticaNowDisplay-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+// font-family: 'HelveticaNowDisplay';
+
+@font-face {
+    font-family: 'Ambit';
+    src: url('../fonts/ambit/Ambit-Light.woff2') format('woff2'),
+        url('../fonts/ambit/Ambit-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Ambit';
+    src: url('../fonts/ambit/Ambit-Bold.woff2') format('woff2'),
+        url('../fonts/ambit/Ambit-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Ambit';
+    src: url('../fonts/ambit/Ambit-Bold.woff2') format('woff2'),
+        url('../fonts/ambit/Ambit-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Ambit';
+    src: url('../fonts/ambit/Ambit-Thin.woff2') format('woff2'),
+        url('../fonts/ambit/Ambit-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Ambit';
+    src: url('../fonts/ambit/Ambit-Regular.woff2') format('woff2'),
+        url('../fonts/ambit/Ambit-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Ambit';
+    src: url('../fonts/ambit/Ambit-Light.woff2') format('woff2'),
+        url('../fonts/ambit/Ambit-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Ambit';
+    src: url('../fonts/ambit/Ambit-SemiBold.woff2') format('woff2'),
+        url('../fonts/ambit/Ambit-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Ambit';
+    src: url('../fonts/ambit/Ambit-Regular.woff2') format('woff2'),
+        url('../fonts/ambit/Ambit-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Ambit';
+    src: url('../fonts/ambit/Ambit-SemiBold.woff2') format('woff2'),
+        url('../fonts/ambit/Ambit-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Ambit';
+    src: url('../fonts/ambit/Ambit-Bold.woff2') format('woff2'),
+        url('../fonts/ambit/Ambit-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Ambit';
+    src: url('../fonts/ambit/Ambit-Thin.woff2') format('woff2'),
+        url('../fonts/ambit/Ambit-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Ambit';
+    src: url('../fonts/ambit/Ambit-Black.woff2') format('woff2'),
+        url('../fonts/ambit/Ambit-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+ 
+// font-family: 'Ambit';
+
+
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('../fonts/SFProDisplay/SFProDisplay-Black.woff2') format('woff2'),
+        url('../fonts/SFProDisplay/SFProDisplay-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('../fonts/SFProDisplay/SFProDisplay-Black.woff2') format('woff2'),
+        url('../fonts/SFProDisplay/SFProDisplay-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('../fonts/SFProDisplay/SFProDisplay-Bold.woff2') format('woff2'),
+        url('../fonts/SFProDisplay/SFProDisplay-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('../fonts/SFProDisplay/SFProDisplay-Bold.woff2') format('woff2'),
+        url('../fonts/SFProDisplay/SFProDisplay-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('../fonts/SFProDisplay/SFProDisplay-Light.woff2') format('woff2'),
+        url('../fonts/SFProDisplay/SFProDisplay-Light.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('../fonts/SFProDisplay/SFProDisplay-Light.woff2') format('woff2'),
+        url('../fonts/SFProDisplay/SFProDisplay-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('../fonts/SFProDisplay/SFProDisplay-Medium.woff2') format('woff2'),
+        url('../fonts/SFProDisplay/SFProDisplay-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('../fonts/SFProDisplay/SFProDisplay-Medium.woff2') format('woff2'),
+        url('../fonts/SFProDisplay/SFProDisplay-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('../fonts/SFProDisplay/SFProDisplay-Regular.woff2') format('woff2'),
+        url('../fonts/SFProDisplay/SFProDisplay-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('../fonts/SFProDisplay/') format('woff2'),
+        url('../fonts/SFProDisplay/SFProDisplay-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('../fonts/SFProDisplay/SFProDisplay-Semibold.woff2') format('woff2'),
+        url('../fonts/SFProDisplay/SFProDisplay-Semibold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('../fonts/SFProDisplay/sfprodisplay-semibold.woff') format('woff2'),
+        url('../fonts/SFProDisplay/sfprodisplay-semibold.woff2') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+// font-family: 'SF Pro Display';
+
+
+
+* {
+	margin: 0;
+	padding: 0;
+
+	&,
+	&:after,
+	&:before {
+		@include box-sizing;
+		font-kerning: none;
+	}
+}
+
+label {
+	font-weight: normal;
+}
+
+fieldset {
+	border: none;
+	margin: 0;
+	padding: 0;
+}
+
+input,
+select,
+textarea {
+	@include appearance(none);
+	background-clip: border-box;
+	margin: 0;
+	outline: 0;
+	vertical-align: top;
+	width: 100%;
+    height: 44px;
+    border: 1px solid #D4D4D8;
+    padding: 0 15px;
+}
+
+input[type='checkbox'],
+input[type='radio'] {
+	width: auto;
+	height: auto;
+}
+
+input[type='checkbox'] {
+	appearance: checkbox;
+}
+
+input[type='radio'] {
+	appearance: radio;
+	vertical-align: -1px;
+}
+
+select[multiple],
+select[size],
+textarea {
+	height: auto;
+}
+
+// remove dropdown for IE10
+
+select::-ms-expand {
+	display: none;
+}
+
+//remove IE11 select element selected option state
+
+select:focus::-ms-value {
+	background-color: transparent;
+	color: inherit;
+}
+
+//Allow only vertical resizing of textareas
+
+textarea {
+	resize: vertical;
+}
+
+//remove search controls
+
+input[type='search']::-webkit-search-decoration {
+	display: none;
+}
+
+/* For Firefox */
+input[type='number'] {
+	-moz-appearance: textfield;
+}
+
+/* Webkit browsers like Safari and Chrome */
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+	@include transition;
+
+	&:hover,
+	&:focus {
+		text-decoration: none;
+ 	}
+}
+
+*:focus {
+	outline: none !important;
+}
+
+li {
+    list-style: none;
+}
+
+ul {
+    padding-left: 0;
+}
+
+img {
+	max-width: 100%;
+}
+
+b,
+strong {
+	font-weight: bold;
+}
+
+em,
+i {
+	font-style: italic;
+}
+
+.clr {
+	border: 0;
+	clear: both;
+	height: 0;
+}
+
+figure {
+    margin-bottom: 0;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body,
+html {
+	width: 100%;
+	overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	font-weight: normal;
+	margin: 0;
+}
+
+// section {
+// 	padding: rem(75px 0px);
+
+// 	@include breakpoint(desktop) {
+// 		padding: rem(55px 0);
+// 	}
+// }
+
+input[type="search"]::-webkit-search-cancel-button {
+    display: none;
+  }
+
+.inline {
+	display: inline-block !important;
+}
+
+.block {
+	display: block !important;
+}
+
+.shown {
+	display: inline-block;
+
+	&.block {
+		display: block;
+	}
+}
+
+.hidden {
+	display: none;
+}
+
+.relative {
+	position: relative;
+}
+
+.form-select:focus {
+    box-shadow: none;
+    border-color: #47BBD0;
+}
+
+//Scrollbar styling for webkit
+::-webkit-scrollbar {
+	min-width: 7px;
+	width: 0.15%;
+	max-width: 7px;
+	height: 3px;
+}
+
+::-webkit-scrollbar,
+::-webkit-scrollbar-track,
+::-webkit-scrollbar-track-piece {
+	background: #ddd;
+}
+
+::-webkit-scrollbar-button,
+::-webkit-scrollbar-thumb {
+	background: linear-gradient(to right, $color-primary 0%, $color-primary 95%);
+}
+// .mCS-autoHide>.mCustomScrollBox>.mCSB_scrollTools, .mCS-autoHide>.mCustomScrollBox~.mCSB_scrollTools{
+// 	opacity: 1 !important;
+// }
+.mCustomScrollBox.mCS-minimal+.mCSB_scrollTools.mCSB_scrollTools_horizontal{
+	background-color: #bdbdbd;
+	opacity: 1;
+	height: 3px;
+	margin: 0;
+}
+.mCSB_scrollTools.mCSB_scrollTools_horizontal .mCSB_dragger .mCSB_dragger_bar,
+.mCSB_scrollTools.mCSB_scrollTools_horizontal .mCSB_draggerRail{
+	margin: 0;
+	opacity: 0;
+}
+.mCS-minimal-dark.mCSB_scrollTools_horizontal .mCSB_dragger, .mCS-minimal.mCSB_scrollTools_horizontal .mCSB_dragger{
+	background-color: $color-primary;
+}
+
+// SVG reset
+svg:not(:root) {
+	height: 100%;
+	width: 100%;
+}
+
+.hr-gray:not([size]) {
+    color: #7A7D8533;
+    height: 2px;
+}
+
+.hr-gray {
+    margin: 20px 0;
+}
+
+.check-box {
+    position: relative;
+    padding-left: 28px;
+    display: flex;
+    align-items: center;
+}
+
+.check-box input {
+    opacity: 0;
+    width: 0;
+    margin-bottom: 0;
+    position: absolute;
+    width: 100%;
+    height: 18px;
+    left: 0;
+    cursor: pointer;
+}
+
+.check-box label {
+    color: #20272B;
+    cursor: pointer;
+    
+    span {
+        color: #47BBD0;
+    }
+}
+
+.check-box input:checked+label:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 5px;
+    left: 6.1px;
+    width: 6px;
+    height: 10px;
+    border: solid #fff;
+    border-width: 0 2px 2px 0;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);   
+}
+
+.check-box:before {
+    content: "";
+    background: #47BBD0;
+    display: inline-block;
+    position: absolute;
+    vertical-align: middle;
+    cursor: pointer;
+    border-radius: 4px;
+    width: 18px;
+    height: 18px;
+    left: 0;
+}

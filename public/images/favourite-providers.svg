@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="177" height="141" viewBox="0 0 177 141">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_13338" data-name="Rectangle 13338" width="177" height="141" transform="translate(845 272)" fill="rgba(71,187,208,0.3)"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_13" data-name="Mask Group 13" transform="translate(-845 -272)" clip-path="url(#clip-path)">
+    <g id="Group_53176" data-name="Group 53176">
+      <path id="blob" d="M70.34.405C80.2,35.289,79.288,69.136,57.761,87.68c-21.4,18.674-63.414,22.175-90.257,2.983C-59.469,71.6-71.4,29.972-60.247-6.6S-14.989-74.68,12.373-72.475,60.485-34.479,70.34.405Z" transform="matrix(-0.259, 0.966, -0.966, -0.259, 951.434, 344.19)" fill="rgba(71,187,208,0.3)"/>
+      <path id="Icon_awesome-heart" data-name="Icon awesome-heart" d="M63.971,6.486C56.388.024,45.111,1.187,38.15,8.368l-2.726,2.809L32.7,8.368C25.752,1.187,14.461.024,6.878,6.486a19.869,19.869,0,0,0-1.37,28.768L32.283,62.9a4.338,4.338,0,0,0,6.268,0L65.327,35.254A19.857,19.857,0,0,0,63.971,6.487Z" transform="translate(892.816 310.541)" fill="#fff"/>
+    </g>
+  </g>
+</svg>
